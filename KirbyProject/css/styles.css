@@ -1,0 +1,150 @@
+/* CSS Document */
+
+/* Font Families:
+"Madimi One"
+"Indie Flower"
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Nanum+Gothic+Coding&display=swap');
+
+
+/* CSS Reset */
+
+body, header, h2, nav, nav li, main, footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body */
+
+body {
+	background-color: #FFD6F9;
+}
+
+/* Style rules for header */
+
+header {
+	
+}
+
+h2 {
+	margin: 3%;
+	font-size: 1.95em;
+	text-align: center;
+	font-family: "Madimi One", sans-serif;
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.65em;
+	font-family: "Madimi One", sans-serif;
+}
+
+img {
+	display: inline-block;
+}
+
+/* Style rules for hero images */
+
+#hero {
+	width: 55%;
+	min-height: 350px;
+	background-image: url("../images/index.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 21%;
+	margin-bottom: 4%;
+	border-radius: 15px;
+}
+
+#hero2 {
+	width: 15%;
+	min-height: 198px;
+	background-image: url("../images/conceptCreate.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	margin-bottom: 4%;
+}
+
+#hero3 {
+	width: 30%;
+	min-height: 310px;
+	background-image: url("../images/characteristics.png");
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 3%;
+}
+
+#hero4 {
+	width: 25%;
+	min-height: 325px;
+	background-size: cover;
+	background-image: url("../images/appearances.png");
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#newsletter {
+	width: 25%;
+	min-height: 350px;
+	background-size: cover;
+	background-image: url("../images/newsletter.png");
+	background-repeat: no-repeat;
+	margin-left: 5%;
+}
+
+/* Style rules for navigation */
+
+nav {
+	padding: 2.25%;
+}
+
+nav ul {
+	
+}
+
+nav li {
+	list-style-type: none;
+}
+
+nav li a {
+	font-size: 1.25em;
+	padding: 1.5%;
+	margin: 0 auto;
+	float: left;
+	text-decoration: none;
+	color: #B052AB;
+	border-radius: 20px;
+	font-family: "Nanum Gothic Coding", "Madimi One", sans-serif;
+}
+
+nav li a:hover {
+	background-color: #FD99F9;
+	color: #FACEFC;
+}
+
+/* Style rules for main */
+
+main {
+	
+}
+
+main p {
+	font-size: 1.35em;
+	margin: 0 2% 2.5% 2%;
+	font-family: "Madimi One", sans-serif;
+}
+
+/* Style rules for footer */
+
+footer {
+	padding: 1%;
+	background-color: #F386F1;
+}
+
+footer p {
+	text-align: center;
+}
